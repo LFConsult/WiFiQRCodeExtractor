@@ -446,15 +446,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:WiFiQRCodeExtractorSetup"
-        "ProductCode" = "8:{F67EFFAE-A6F0-406B-ADB7-F413D287E7A5}"
-        "PackageCode" = "8:{F7107D3C-3472-4BFC-9DB8-DC5691F8EC81}"
+        "ProductCode" = "8:{07BCEFBF-7CEF-4F81-81E5-9BADC2F87F8D}"
+        "PackageCode" = "8:{B0D6F847-5623-40CD-B7C2-9F3CF8117CD5}"
         "UpgradeCode" = "8:{4DC08684-DB72-4E75-B2DD-23520A37D7E7}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:2.1.0"
+        "ProductVersion" = "8:2.2.0"
         "Manufacturer" = "8:LFConsult"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -569,7 +569,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_50B80517EAC6455AB0A5B2512F072240"
             {
-            "Name" = "8:Shortcut to Sortie principale from WiFiQRCodeExtractor (Active)"
+            "Name" = "8:WiFiQRCodeExtractor"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -583,7 +583,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CDBE5681313746DEB6387E77E807BA6E"
             {
-            "Name" = "8:Shortcut to Sortie principale from WiFiQRCodeExtractor (Active)"
+            "Name" = "8:WiFiQRCodeExtractor"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"

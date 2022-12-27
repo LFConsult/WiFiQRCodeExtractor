@@ -54,9 +54,9 @@
             this.networkNameLabel.Location = new System.Drawing.Point(14, 314);
             this.networkNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.networkNameLabel.Name = "networkNameLabel";
-            this.networkNameLabel.Size = new System.Drawing.Size(121, 20);
+            this.networkNameLabel.Size = new System.Drawing.Size(111, 20);
             this.networkNameLabel.TabIndex = 1;
-            this.networkNameLabel.Text = "Nom du réseau ";
+            this.networkNameLabel.Text = "Network name";
             this.networkNameLabel.Visible = false;
             // 
             // previewCamera
@@ -75,7 +75,7 @@
             this.restartButton.Name = "restartButton";
             this.restartButton.Size = new System.Drawing.Size(300, 35);
             this.restartButton.TabIndex = 3;
-            this.restartButton.Text = "Recommencer";
+            this.restartButton.Text = "Restart";
             this.restartButton.UseVisualStyleBackColor = true;
             this.restartButton.Visible = false;
             this.restartButton.Click += new System.EventHandler(this.restartButton_Click);
@@ -86,9 +86,9 @@
             this.passwordCopiedLabel.Location = new System.Drawing.Point(126, 143);
             this.passwordCopiedLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.passwordCopiedLabel.Name = "passwordCopiedLabel";
-            this.passwordCopiedLabel.Size = new System.Drawing.Size(311, 20);
+            this.passwordCopiedLabel.Size = new System.Drawing.Size(272, 20);
             this.passwordCopiedLabel.TabIndex = 4;
-            this.passwordCopiedLabel.Text = "Mot de passe copié dans le presse-papiers";
+            this.passwordCopiedLabel.Text = "Password dumped into your clipboard";
             this.passwordCopiedLabel.Visible = false;
             // 
             // instructionsLabel
@@ -97,9 +97,9 @@
             this.instructionsLabel.Location = new System.Drawing.Point(117, 340);
             this.instructionsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.instructionsLabel.Name = "instructionsLabel";
-            this.instructionsLabel.Size = new System.Drawing.Size(298, 20);
+            this.instructionsLabel.Size = new System.Drawing.Size(334, 20);
             this.instructionsLabel.TabIndex = 5;
-            this.instructionsLabel.Text = "Placez le QRCode WiFi devant la caméra";
+            this.instructionsLabel.Text = "Present WiFi QR code in front of your webcam";
             // 
             // exitButton
             // 
@@ -108,7 +108,7 @@
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(112, 35);
             this.exitButton.TabIndex = 6;
-            this.exitButton.Text = "Quitter";
+            this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 

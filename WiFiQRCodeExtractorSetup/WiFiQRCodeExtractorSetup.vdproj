@@ -82,12 +82,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5EB678F91E865AB06042ACC405BCC34D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_76F353F2AFA142348A044A1339DC23C7"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -121,6 +115,12 @@
         "OwnerKey" = "8:_957438897016628E21FD1C132C018DD2"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5EB678F91E865AB06042ACC405BCC34D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -139,6 +139,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -155,6 +163,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -446,15 +462,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:WiFiQRCodeExtractorSetup"
-        "ProductCode" = "8:{07BCEFBF-7CEF-4F81-81E5-9BADC2F87F8D}"
-        "PackageCode" = "8:{B0D6F847-5623-40CD-B7C2-9F3CF8117CD5}"
+        "ProductCode" = "8:{B1E38794-8786-4404-ACDF-509CB7BAF1CB}"
+        "PackageCode" = "8:{E883CB9A-2705-477F-8165-845D0507D1BE}"
         "UpgradeCode" = "8:{4DC08684-DB72-4E75-B2DD-23520A37D7E7}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:2.2.0"
+        "ProductVersion" = "8:2.3.0"
         "Manufacturer" = "8:LFConsult"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -996,7 +1012,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_76F353F2AFA142348A044A1339DC23C7"
             {
-            "SourcePath" = "8:..\\WiFiQRCodeExtractor\\obj\\Release\\WiFiQRCodeExtractor.exe"
+            "SourcePath" = "8:..\\WiFiQRCodeExtractor\\obj\\Debug\\WiFiQRCodeExtractor.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A857E29083B3426E872E18D3CF992A43"
